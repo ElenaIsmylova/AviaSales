@@ -1,1 +1,1 @@
-# aviasales-ten-psi.vercel.app
+# https://aviasales-ten-psi.vercel.app/
