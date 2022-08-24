@@ -1,0 +1,32 @@
+.fly-info {
+	display: flex;
+}
+
+.fly-info__elem {
+	flex: 1;
+}
+
+.fly-info__elem-top {
+	margin: 0;
+	margin-bottom: 2px;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 18px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	color: #A0B0B9;
+}
+
+.fly-info__elem-info {
+	margin: 0;
+	margin-bottom: 12px;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 21px;
+	color: #4A4A4A;
+}
+@media (max-width: 570px) {
+	.fly-info {
+		flex-direction: column;
+	}
+}

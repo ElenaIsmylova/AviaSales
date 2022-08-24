@@ -1,0 +1,1 @@
+export const showMoreAction = {type: 'SHOW_MORE'}

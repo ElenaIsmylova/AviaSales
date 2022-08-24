@@ -1,0 +1,40 @@
+.top-filter {
+	display: flex;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.top-filters__flight {
+	flex: 1;
+	height: 50px;
+	text-align: center;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 20px;
+	line-height: 50px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	color: #4A4A4A;
+	cursor: pointer;
+	background-color: #fff;
+	border: 1px solid #DFE5EC;
+	transition: 0.3s linear;
+}
+
+.top-filters__flight:not(:last-child) {
+	border-right: none;
+}
+
+.cheapest-flight {
+	border-radius: 5px 0 0 5px;
+}
+
+.optimal-flight {
+	border-radius: 0 5px 5px 0;
+}
+
+.active,
+.top-filters__flight:hover {
+	background: #2196F3;
+	color: #fff;
+}
